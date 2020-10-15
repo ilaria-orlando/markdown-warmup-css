@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+         url('quicksand-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 20px 50px 20px 150px;
+    background-color: #ffd5cd;
+    font-family: 'quicksandlight', quicksand, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #8675a9;
+}
+
+h1 {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+div.color {
+    background-color: #efbbcf;
+    padding: 70px;
+    width: 1100px;
+    margin: auto;
+    align-content: center;
+}
+
+div.quote {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+img {
+    padding-top: 20px;
+}
+
+table {
+    background-color: #c3aed6;
+    width: 300px;
+    border: 1px;
+    border-color: #ffd5cd;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px;
+    border-color: #ffd5cd;
+    border-style: solid;
+    text-align: left;
+    padding: 5px;
+}
+
+div.left{
+    float: left;
+    padding: 50px;
+}
+
+div.clear {
+    clear: both;
+}
+
+div.funny {
+    text-align: center;
+    background-color: #c3aed6;
+    padding: 30px;
+    width: 700px;
+    margin: auto;
+}
+
+div.center{
+    margin-left: 120px;
+}
